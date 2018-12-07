@@ -1,0 +1,22 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": false,
+  "dependencies": {
+    "app2": "1.0.0",
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.2.1",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
