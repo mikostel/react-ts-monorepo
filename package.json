@@ -1,5 +1,5 @@
 {
-  "name": "typescript-monorepo",
+  "name": "react-ts-monorepo",
   "private": true,
   "devDependencies": {
     "lerna": "^3.4.3"
