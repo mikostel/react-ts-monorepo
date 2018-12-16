@@ -2,6 +2,17 @@
   "name": "react-ts-monorepo",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.4.3"
+    "lerna": "^3.4.3",
+    "@storybook/react": "^4.1.1",
+    "@storybook/addon-actions": "^4.1.1",
+    "@storybook/addon-links": "^4.1.1",
+    "@storybook/addons": "^4.1.1",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.4"
+  },
+  "dependencies": {},
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
