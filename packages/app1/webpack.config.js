@@ -19,6 +19,12 @@ module.exports = {
 
   module: {
     rules: [
+      // Apply the tslint-loader as preloader
+      {
+        test: /\.tsx?$/,
+        enforce: 'pre',
+        loader: 'tslint-loader'
+      },
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
       // All files with a '.html' extension will be handled by 'html-loader'.
